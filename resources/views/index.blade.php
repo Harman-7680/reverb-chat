@@ -9,7 +9,7 @@
             <h2 class="font-bold mb-4">Users</h2>
 
             @foreach ($users as $u)
-                <a href="{{ route('chat', $u->id) }}" class="block p-2 rounded hover:bg-gray-100">
+               <a href="{{ route('reverb-chat.index', $u->id) }}" class="block p-2 rounded hover:bg-gray-100">
                     {{ $u->name }}
                 </a>
             @endforeach
