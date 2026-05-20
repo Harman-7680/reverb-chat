@@ -7,7 +7,7 @@ It enables instant messaging with private channels and live updates.
 
 ##  Features
 
-- ⚡ Real-time messaging using Laravel Reverb
+-  Real-time messaging using Laravel Reverb
 -  Private user-to-user chat
 -  Simple Blade UI included
 -  Instant message delivery

@@ -1,24 +1,41 @@
 {
-    "name": "harman-7680/reverb-chat",
-    "description": "Simple Laravel Reverb Chat Package",
-    "license": "MIT",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Harman\\ReverbChat\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Harman\\ReverbChat\\Providers\\ReverbChatServiceProvider"
-            ]
-        }
-    },
-    "require": {
-        "php": "^8.2",
-        "illuminate/support": "^11.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "harman-7680/reverb-chat",
+  "description": "Real-time Laravel Reverb chat package for private user-to-user messaging with WebSockets",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "chat",
+    "reverb",
+    "websockets",
+    "real-time",
+    "messaging"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Harman\\ReverbChat\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Harman Singh",
+      "email": "harman7680@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "harman7680@gmail.com"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Harman\\ReverbChat\\Providers\\ReverbChatServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
