@@ -23,7 +23,7 @@ class ReverbChatServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../../config/reverb-chat.php' => config_path('reverb-chat.php'),
-        ], 'config');
+        ], 'reverb-chat-config');
 
         if ($this->app->runningInConsole()) {
 
