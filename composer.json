@@ -1,0 +1,23 @@
+{
+    "name": "harman/reverb-chat",
+    "description": "Simple Laravel Reverb Chat Package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Harman\\ReverbChat\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harman\\ReverbChat\\Providers\\ReverbChatServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
