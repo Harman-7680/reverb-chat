@@ -1,5 +1,5 @@
 {
-    "name": "harman/reverb-chat",
+    "name": "harman-7680/reverb-chat",
     "description": "Simple Laravel Reverb Chat Package",
     "type": "library",
     "autoload": {
