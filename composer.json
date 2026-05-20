@@ -1,6 +1,7 @@
 {
     "name": "harman-7680/reverb-chat",
     "description": "Simple Laravel Reverb Chat Package",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
