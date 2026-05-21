@@ -85,3 +85,25 @@ Fix
 npm install @tailwindcss/forms
 npm run dev
 ```
+
+
+# Auth package required
+
+```bash
+composer require laravel/breeze --dev
+php artisan breeze:install
+```
+
+if tailwind needed
+
+```bash
+php artisan breeze:install blade
+```
+
+After that run
+
+```bash
+npm install
+npm run dev
+php artisan migrate
+```
